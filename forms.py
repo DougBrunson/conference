@@ -91,8 +91,8 @@ class SessionByConfForm(messages.Message):
 
 
 class SessionByLocationForm(messages.Message):
-    location = messages.IntegerField(1)
-
+    location = messages.StringField(1)
+    conference_key = messages.StringField(2)
 
 class SessionByTypeForm(messages.Message):
     conference_key = messages.StringField(1)
