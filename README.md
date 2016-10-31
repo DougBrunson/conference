@@ -1,3 +1,7 @@
+## Project for Udacity nanodegree.
+
+Builds on a conference app by adding sessions to confernces. I used google apps to make this.
+
 run with `python dev_appserver.py app.yaml`
 
 Design
